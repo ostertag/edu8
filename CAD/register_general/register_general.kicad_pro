@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1524,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8128,
-        "silk_text_size_v": 0.8128,
-        "silk_text_thickness": 0.1524,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.2
@@ -495,7 +495,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "gnd",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 255, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "vcc",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -506,7 +525,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "vcc",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "gnd",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
