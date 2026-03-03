@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "0d96e788-3788-4603-be87-fd7748d71811")
 	(paper "A4")
+	(title_block
+		(title "General Purpose Register")
+		(date "${YEAR}-${MONTH}-${DAY}")
+		(rev "${REVISION}")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC245"
 			(pin_names

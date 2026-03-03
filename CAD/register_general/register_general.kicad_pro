@@ -677,5 +677,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DAY": "03",
+    "MONTH": "03",
+    "REVISION": "1.0",
+    "YEAR": "2026"
+  }
 }

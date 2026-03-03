@@ -105,6 +105,10 @@
 			(outputdirectory "")
 		)
 	)
+	(property "DAY" "03")
+	(property "MONTH" "03")
+	(property "REVISION" "1.0")
+	(property "YEAR" "2026")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "Net-(D9-K)")
@@ -9977,7 +9981,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev 1.0\n2026/03"
+	(gr_text "Rev ${REVISION}\n${YEAR}/${MONTH}"
 		(at 152.65 80.335001 90)
 		(layer "B.SilkS" knockout)
 		(uuid "5ef3934f-62d4-4cbf-b82d-7b838139fcf6")
