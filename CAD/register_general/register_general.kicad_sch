@@ -5,7 +5,7 @@
 	(uuid "0d96e788-3788-4603-be87-fd7748d71811")
 	(paper "A4")
 	(title_block
-		(title "General Purpose Register")
+		(title "${TITLE}")
 		(date "${YEAR}-${MONTH}-${DAY}")
 		(rev "${REVISION}")
 	)
