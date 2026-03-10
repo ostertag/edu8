@@ -671,6 +671,7 @@
   ],
   "text_variables": {
     "DAY": "03",
+    "GITHUB": "ostertag/edu8",
     "MONTH": "03",
     "REVISION": "1.0",
     "TITLE": "Status Word",
