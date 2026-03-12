@@ -2232,7 +2232,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SO-20_5.3x12.6mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2241,7 +2241,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C88578.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708648597213184"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2259,7 +2259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Details" "https://www.lcsc.com/product-detail/C88578.html"
+			(property "Details" "https://jlcpcb.com/partdetail/Nexperia-74HC245D653/C5625"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2268,7 +2268,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C88578"
+			(property "LCSC" "C5625"
 				(at 0 0 0)
 				(effects
 					(font
@@ -25305,7 +25305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_5.3x12.6mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 240.03 48.26 0)
 			(effects
 				(font
@@ -25314,7 +25314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C88578.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579708648597213184"
 			(at 240.03 48.26 0)
 			(effects
 				(font
@@ -25332,7 +25332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Details" "https://www.lcsc.com/product-detail/C88578.html"
+		(property "Details" "https://jlcpcb.com/partdetail/Nexperia-74HC245D653/C5625"
 			(at 240.03 48.26 0)
 			(effects
 				(font
@@ -25341,7 +25341,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C88578"
+		(property "LCSC" "C5625"
 			(at 240.03 48.26 0)
 			(effects
 				(font
