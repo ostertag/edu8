@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom dnp)
 	(fp_poly
 		(pts
 			(xy -1.908603 2.10035) (xy -1.838479 2.117368) (xy -1.797648 2.15025) (xy -1.78002 2.202696) (xy -1.778 2.238841)
