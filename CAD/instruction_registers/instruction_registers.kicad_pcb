@@ -22901,6 +22901,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "Rev ${REVISION}\n${YEAR}/${MONTH}"
+		(at 115.2 47.6938 0)
+		(layer "B.SilkS" knockout)
+		(uuid "32001971-cc75-4139-8136-dd9581690ee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "github.com/${GITHUB}"
 		(at 52 53.308853 0)
 		(layer "B.SilkS")
@@ -22923,18 +22935,6 @@
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
-		)
-	)
-	(gr_text "Rev ${REVISION}\n${YEAR}/${MONTH}"
-		(at 111.725 47.6938 0)
-		(layer "B.SilkS" knockout)
-		(uuid "32001971-cc75-4139-8136-dd9581690ee8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify right mirror)
 		)
 	)
 	(segment
