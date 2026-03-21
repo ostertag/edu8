@@ -17560,7 +17560,7 @@
 			(uuid "bbf235fe-acb8-4103-8230-c622094e2a59")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR033")
 					(unit 1)
@@ -17727,7 +17727,7 @@
 			(uuid "8a4dfaf8-f786-494d-9793-2e9f44753236")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "D1")
 					(unit 1)
@@ -18362,7 +18362,7 @@
 			(uuid "75009438-6f00-4360-9842-1c0ff794040d")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "U1")
 					(unit 1)
@@ -18791,7 +18791,7 @@
 			(uuid "f074aaa7-6319-4f4a-b49f-253a8367d139")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR024")
 					(unit 1)
@@ -19077,7 +19077,7 @@
 			(uuid "db9708b7-5488-4cac-b05d-1b3d49711a99")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "SW3")
 					(unit 1)
@@ -19207,7 +19207,7 @@
 			(uuid "d6040743-2b0d-448c-ad61-81f126c8c467")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "U6")
 					(unit 1)
@@ -19342,7 +19342,7 @@
 			(uuid "f216bf12-afc7-4c83-8d52-be7dd021221f")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "JP1")
 					(unit 1)
@@ -19666,7 +19666,7 @@
 			(uuid "643aad16-3698-48b8-8103-a52ac5273772")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "U9")
 					(unit 1)
@@ -19844,7 +19844,7 @@
 			(uuid "519a8224-581f-4212-acdd-f2a57999e038")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "DS1")
 					(unit 1)
@@ -19919,7 +19919,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 81.28 17.78 0)
+		(at 85.09 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19928,7 +19928,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c1de1e9-602f-4d0e-b9fa-b3c0fbbff593")
 		(property "Reference" "FID2"
-			(at 83.82 16.5099 0)
+			(at 87.63 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19937,7 +19937,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 83.82 19.0499 0)
+			(at 87.63 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19946,7 +19946,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 81.28 17.78 0)
+			(at 85.09 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19955,7 +19955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 17.78 0)
+			(at 85.09 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19964,7 +19964,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 81.28 17.78 0)
+			(at 85.09 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20314,7 +20314,7 @@
 			(uuid "6ca17ce1-0b4c-4761-ac54-a06f4d1cf32e")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR039")
 					(unit 1)
@@ -20379,7 +20379,7 @@
 			(uuid "8cd5aff6-d63d-4582-ae51-6686966d28c9")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR01")
 					(unit 1)
@@ -20748,7 +20748,7 @@
 			(uuid "b49550d5-e37f-450a-817b-193d6c650db6")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "R1")
 					(unit 1)
@@ -21560,7 +21560,7 @@
 			(uuid "b567a64a-458f-4386-a06a-000f0013aab1")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "J2")
 					(unit 1)
@@ -21730,7 +21730,7 @@
 			(uuid "133597fc-03cc-45b9-9886-78f74ad878a8")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "RV1")
 					(unit 1)
@@ -21874,7 +21874,7 @@
 			(uuid "29084eba-9ba8-4f18-8ec9-b6546eab761d")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR016")
 					(unit 1)
@@ -22031,7 +22031,7 @@
 			(uuid "29d7dfab-c693-4b7b-af2f-25119d15a7ab")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "C10")
 					(unit 1)
@@ -22394,7 +22394,7 @@
 			(uuid "ef8d3a3a-1781-431f-baa4-8e567bc123fb")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "Y1")
 					(unit 1)
@@ -22479,7 +22479,7 @@
 			(uuid "93135b66-ab88-446d-93b1-41f711702478")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "SW1")
 					(unit 1)
@@ -22558,7 +22558,7 @@
 			(uuid "eaaad458-2f09-4c9b-9ab0-a6a786b1a4be")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "C1")
 					(unit 1)
@@ -22702,7 +22702,7 @@
 			(uuid "e1812cd8-6251-4f2f-88d3-a00304622526")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "R5")
 					(unit 1)
@@ -23781,7 +23781,7 @@
 			(uuid "eeec2d89-fa30-42bd-b8ea-47d7e26d73d1")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR017")
 					(unit 1)
@@ -23976,7 +23976,7 @@
 			(uuid "85bfcbdd-6d37-4d14-848a-ac1bb55b8d6e")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR043")
 					(unit 1)
@@ -24994,7 +24994,7 @@
 			(uuid "fd0fc3c5-309d-42ac-b189-709c7678c9ec")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR02")
 					(unit 1)
@@ -25450,7 +25450,7 @@
 			(uuid "ad5e9473-e2d5-458f-a9f1-15313f5de682")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#PWR038")
 					(unit 1)
@@ -25648,7 +25648,7 @@
 			(uuid "b5ea74d4-adee-48eb-85e7-6adbb1bea96e")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "#FLG01")
 					(unit 1)
@@ -25934,7 +25934,7 @@
 			(uuid "c90a7c1b-937f-446c-b357-0264ebeb60cc")
 		)
 		(instances
-			(project ""
+			(project "instruction_registers"
 				(path "/4251315d-5042-4624-83d8-1c3574ca551e"
 					(reference "U4")
 					(unit 1)
