@@ -14625,6 +14625,12 @@
 		(uuid "eb3533ed-b2ad-4078-b60b-415c8c0f7ab2")
 	)
 	(junction
+		(at 17.78 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0114bb57-5cad-4c82-8172-e94984cfaa9f")
+	)
+	(junction
 		(at 106.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15819,7 +15825,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 115.57) (xy 46.99 116.84)
+			(xy 48.26 115.57) (xy 48.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -16499,7 +16505,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 115.57) (xy 33.02 116.84)
+			(xy 34.29 115.57) (xy 34.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -17329,7 +17335,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 116.84) (xy 60.96 115.57)
+			(xy 62.23 116.84) (xy 62.23 115.57)
 		)
 		(stroke
 			(width 0)
@@ -20890,7 +20896,7 @@
 	)
 	(global_label "clk"
 		(shape input)
-		(at 46.99 115.57 90)
+		(at 48.26 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20900,7 +20906,7 @@
 		)
 		(uuid "df64e923-3883-4387-bb49-5092522e2dcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 109.8029 90)
+			(at 48.26 109.8029 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21120,7 +21126,7 @@
 			(uuid "57720d37-af27-4eea-a5e2-11020af7ba65")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U1")
 					(unit 1)
@@ -21352,7 +21358,7 @@
 			(uuid "3899238a-2d92-4b2f-8cb2-bbf459f30a2c")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR08")
 					(unit 1)
@@ -21482,7 +21488,7 @@
 			(uuid "f63b2dc3-1da0-4f57-ad99-262c8b111cc0")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR027")
 					(unit 1)
@@ -21548,7 +21554,7 @@
 			(uuid "ccd26268-8ab1-473d-86ac-8d9be226cc22")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR018")
 					(unit 1)
@@ -21757,7 +21763,7 @@
 			(uuid "b454efde-9a22-4f17-abe3-7658a604e658")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U3")
 					(unit 1)
@@ -21767,7 +21773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 116.84 0)
+		(at 62.23 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21776,7 +21782,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d1c7f26-4ae0-4765-bb3f-ebacea899274")
 		(property "Reference" "#PWR035"
-			(at 60.96 123.19 0)
+			(at 62.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21785,7 +21791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 121.92 0)
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21793,7 +21799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21802,7 +21808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21811,7 +21817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 116.84 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21823,7 +21829,7 @@
 			(uuid "f02cf025-76a5-4f45-a0b3-c57b0b2b4395")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR035")
 					(unit 1)
@@ -21888,7 +21894,7 @@
 			(uuid "fab3b11f-2c77-4a67-bd7c-bf96dbd22085")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR09")
 					(unit 1)
@@ -22147,7 +22153,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "FID1")
 					(unit 1)
@@ -22293,7 +22299,7 @@
 			(uuid "5d86cd89-56d8-4802-9537-46c40d7573e9")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "H1")
 					(unit 1)
@@ -22498,16 +22504,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 33.02 115.57 0)
+		(at 34.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ff9f253-3c25-4f9f-b9c4-d20c1232591d")
 		(property "Reference" "TP2"
-			(at 35.56 110.9979 0)
+			(at 35.56 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22516,7 +22521,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 35.56 113.5379 0)
+			(at 35.56 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22525,7 +22530,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 38.1 115.57 0)
+			(at 39.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22534,7 +22539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 115.57 0)
+			(at 39.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22543,7 +22548,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 115.57 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22684,7 +22689,7 @@
 			(uuid "b50f9de5-1f8b-47d8-ae6d-7911f7de5f16")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR03")
 					(unit 1)
@@ -22807,7 +22812,7 @@
 			(uuid "20d3ebf0-10b9-4b7d-98dd-6d5e9cc5e446")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U6")
 					(unit 1)
@@ -23003,7 +23008,7 @@
 			(uuid "1e2913af-9f0f-4b12-8584-6cd8f0013fa2")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR034")
 					(unit 1)
@@ -23427,7 +23432,7 @@
 			(uuid "0a36b684-d948-4751-91d3-089150b0328a")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR014")
 					(unit 1)
@@ -23558,7 +23563,7 @@
 			(uuid "8eb3d458-f033-4c84-afaf-a8aa78d846e8")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR026")
 					(unit 1)
@@ -23637,7 +23642,7 @@
 			(uuid "3e5c7ffe-a36e-48c4-96ab-db4ece7de1b1")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "C1")
 					(unit 1)
@@ -23703,7 +23708,7 @@
 			(uuid "897ef329-dcb1-4a31-a56e-f3575fe0c3c1")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR033")
 					(unit 1)
@@ -23936,7 +23941,7 @@
 			(uuid "af48ed32-961a-4b98-87a7-87eb08ccd427")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR030")
 					(unit 1)
@@ -24277,7 +24282,7 @@
 			(uuid "20d3ebf0-10b9-4b7d-98dd-6d5e9cc5e447")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U6")
 					(unit 2)
@@ -24408,7 +24413,7 @@
 			(uuid "921d5c98-f6e8-4b00-bce1-016a987c4e7e")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR04")
 					(unit 1)
@@ -25149,7 +25154,7 @@
 			(uuid "d627bd21-9aa8-4de9-8e36-4f071c2b58b9")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR07")
 					(unit 1)
@@ -25470,7 +25475,7 @@
 			(uuid "9478172a-afd0-40cc-b89d-de2c91f1c54b")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#FLG01")
 					(unit 1)
@@ -25486,10 +25491,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b185c8aa-8d63-4c0e-87b1-d2d5262948c1")
 		(property "Reference" "TP1"
-			(at 20.32 118.8719 0)
+			(at 18.796 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25498,7 +25502,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 20.32 121.4119 0)
+			(at 18.796 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25537,7 +25541,7 @@
 			(uuid "c2e4299e-dbcd-4dd3-ad60-b07904079800")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "TP1")
 					(unit 1)
@@ -25626,16 +25630,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 60.96 115.57 0)
+		(at 62.23 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4c1e57b-bff4-48c0-be53-00a348d5d4a4")
 		(property "Reference" "TP4"
-			(at 63.5 110.9979 0)
+			(at 63.5 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25644,7 +25647,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 63.5 113.5379 0)
+			(at 63.5 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25653,7 +25656,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 66.04 115.57 0)
+			(at 67.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25662,7 +25665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 115.57 0)
+			(at 67.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25671,7 +25674,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 60.96 115.57 0)
+			(at 62.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25749,7 +25752,7 @@
 			(uuid "be87a8c6-f27b-4288-b8b3-4fbf1e13c264")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR06")
 					(unit 1)
@@ -25814,7 +25817,7 @@
 			(uuid "3fd18cfd-694c-4468-8afe-1ec978d84443")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR012")
 					(unit 1)
@@ -25824,7 +25827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 116.84 0)
+		(at 34.29 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25833,7 +25836,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb8d83a4-eebe-481c-901b-998ef7254606")
 		(property "Reference" "#PWR031"
-			(at 33.02 123.19 0)
+			(at 34.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25842,7 +25845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 121.92 0)
+			(at 34.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25850,7 +25853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 116.84 0)
+			(at 34.29 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +25862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 116.84 0)
+			(at 34.29 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25868,7 +25871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 116.84 0)
+			(at 34.29 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25880,7 +25883,7 @@
 			(uuid "6ee7d071-7357-4b0f-b065-04aba44e2c2d")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR031")
 					(unit 1)
@@ -26101,7 +26104,7 @@
 			(uuid "aa5de8b9-2445-4e06-9400-978d38e7819b")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U5")
 					(unit 1)
@@ -26167,7 +26170,7 @@
 			(uuid "3e085aa0-ac65-4c9d-a265-e2fb5c65a058")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR01")
 					(unit 1)
@@ -26291,10 +26294,85 @@
 			(uuid "20d3ebf0-10b9-4b7d-98dd-6d5e9cc5e448")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 17.78 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfafb36f-e41d-4bb6-8fc9-95d67f4a2f1c")
+		(property "Reference" "TP5"
+			(at 19.558 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RH-5015"
+			(at 22.098 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+			(at 17.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5199798.pdf"
+			(at 17.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 17.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5199798"
+			(at 17.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b808ed-11e1-41c3-9fb2-fd5c26a0d03d")
+		)
+		(instances
+			(project "status_word"
+				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
+					(reference "TP5")
+					(unit 1)
 				)
 			)
 		)
@@ -26358,7 +26436,7 @@
 			(uuid "357f3af5-1efa-493b-b29e-1838d4b56e42")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "H2")
 					(unit 1)
@@ -26567,7 +26645,7 @@
 			(uuid "9f28ee0e-8977-4e32-a3ab-e4d4c5624d8b")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR020")
 					(unit 1)
@@ -26689,7 +26767,7 @@
 			(uuid "20d3ebf0-10b9-4b7d-98dd-6d5e9cc5e449")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U6")
 					(unit 3)
@@ -26811,7 +26889,7 @@
 			(uuid "20d3ebf0-10b9-4b7d-98dd-6d5e9cc5e44a")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U6")
 					(unit 4)
@@ -27042,7 +27120,7 @@
 			(uuid "3b206b4a-6f87-42d9-9a95-1315194ad52b")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "R11")
 					(unit 1)
@@ -27106,7 +27184,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "H3")
 					(unit 1)
@@ -27247,16 +27325,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 46.99 116.84 180)
+		(at 48.26 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb1e6b5d-9e7b-4564-9915-302cf38bea6f")
 		(property "Reference" "TP3"
-			(at 49.53 118.8719 0)
+			(at 49.53 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27265,7 +27342,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 49.53 121.4119 0)
+			(at 49.53 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27274,7 +27351,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 41.91 116.84 0)
+			(at 43.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27283,7 +27360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 116.84 0)
+			(at 43.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27292,7 +27369,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 46.99 116.84 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27304,7 +27381,7 @@
 			(uuid "9e9dc927-22ff-4771-996b-2ca9f9f39df7")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "TP3")
 					(unit 1)
@@ -27383,7 +27460,7 @@
 			(uuid "32e9c5ab-ca51-45d4-9cb1-70d5dff10c78")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "C7")
 					(unit 1)
@@ -27449,7 +27526,7 @@
 			(uuid "d0e546ea-7929-4888-ad9e-23627a629a74")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "#PWR013")
 					(unit 1)
@@ -27834,7 +27911,7 @@
 			(uuid "9de977bc-f6e6-44f0-b173-04d09fc9c207")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U2")
 					(unit 2)
@@ -27964,7 +28041,7 @@
 			(uuid "9de977bc-f6e6-44f0-b173-04d09fc9c208")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U2")
 					(unit 3)
@@ -28094,7 +28171,7 @@
 			(uuid "9de977bc-f6e6-44f0-b173-04d09fc9c209")
 		)
 		(instances
-			(project ""
+			(project "status_word"
 				(path "/50b809f2-d499-44b9-9e9c-3ba3c2644135"
 					(reference "U2")
 					(unit 1)
