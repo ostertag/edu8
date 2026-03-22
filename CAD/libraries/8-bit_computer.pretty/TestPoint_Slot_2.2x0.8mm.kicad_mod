@@ -1,0 +1,164 @@
+(footprint "TestPoint_Slot_2.2x0.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated slotted test point for probe hook")
+	(tags "testpoint slot probe hook plated")
+	(property "Reference" "TP?"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "e320d687-ec3c-4c06-82e3-3c4d2518f2c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Slot"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "ff4318d1-7803-4901-84e4-212eaecfcfcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba26a026-f16b-4141-8910-140e51898556")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e76562-9ac1-46b9-b6e0-c4a20271a93b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "847c6087-a7c5-4396-8217-9490e814d162")
+	)
+	(fp_line
+		(start -1.5 1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aca81a6-168d-4d61-9574-9ddb51fe235e")
+	)
+	(fp_line
+		(start -1.9 -1.4)
+		(end 1.9 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a90b2d08-8744-4a50-a525-fb270a50bdca")
+	)
+	(fp_line
+		(start -1.9 1.4)
+		(end -1.9 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd159510-6456-4101-8c0c-7e04e931081e")
+	)
+	(fp_line
+		(start 1.9 -1.4)
+		(end 1.9 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25149cae-b269-4b25-9424-f5c58c6fbd47")
+	)
+	(fp_line
+		(start 1.9 1.4)
+		(end -1.9 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81f9bd4d-0cdd-4fbe-b2b0-cd590e62aa7e")
+	)
+	(fp_line
+		(start -1.5 -0.8)
+		(end 1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4fb6655-2546-416c-bf86-bfa4a3c0e36b")
+	)
+	(fp_line
+		(start -1.5 0.8)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7761819-d4b2-4603-8b87-09d2b301dd16")
+	)
+	(fp_line
+		(start 1.5 -0.8)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0773f29-6ae1-4c19-902b-c440aafdfb53")
+	)
+	(fp_line
+		(start 1.5 0.8)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "101b395d-4fab-43f6-92e1-84d0a8f091f8")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 3 1.6)
+		(drill oval 2.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9320619c-e472-4166-a3db-5fdbb4afc40a")
+	)
+	(embedded_fonts no)
+)
