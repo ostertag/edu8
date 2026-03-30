@@ -60,7 +60,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|62900000|52988195|333211a4-10a2-4f95-9996-f3253d93ed3f|aa8f8b8a-56ab-4021-9d44-701ea1620bf7",
+          "intentional"
+        ],
+        [
+          "clearance|70900000|46000000|7fd1abc4-d8c5-4e55-ba77-d8b451b8dd97|aa8f8b8a-56ab-4021-9d44-701ea1620bf7",
+          "intentional"
+        ],
+        [
+          "lib_footprint_mismatch|103000000|45855000|d8ec0b2c-d29f-45a8-8be2-9f9d5bce7455|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|139360000|74055000|14d1e414-6c96-4889-94d6-c38ace326c44|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|80010000|71125000|4925c539-9728-474a-bdc2-90263bde2f29|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "silk_overlap|111823412|46157536|32001971-cc75-4139-8136-dd9581690ee8|49c19cec-8be2-486b-9028-fe1525b00e16",
+          "intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -270,7 +295,72 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|673100|1270000|f53b1419-1ccc-47c0-992f-85f432819181|f4fc382b-598d-459e-b3fc-2c5d955e37e5|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1295400|4db79651-7e36-4b31-af0b-040857096823|d6411c97-736a-4d43-9750-69326e82df41|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1320800|b3f74a90-3b2a-4b58-9e53-99bc3ab07ab0|4fb8a4c5-f923-44d2-8a20-f3719ea88832|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1346200|5b1dacd3-4012-4023-a880-191a62a14eac|7ee41118-bff2-46ed-be78-cda004c69b32|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1371600|865314c0-4188-4c98-acdc-761788c32f4b|ba70e2a3-37d4-44a2-9b5d-3826ecc70206|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1397000|69956262-1c91-4487-a181-39822ac8b1f2|4f8af01d-5e3b-4f83-ae67-40a37e1a7e6c|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1422400|11420438-e59a-4c78-ade3-05623794677c|d5709b60-f1ce-4702-8a81-b7c902337eca|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|1447800|ca5fd57b-07bd-4018-adc8-b851a0dd92bc|9b80ecc2-44fc-4318-af3c-0fb94e7a6064|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|774700|0b545861-fc47-4ae0-8bf4-fd6ecf10554b|45829be3-1f27-47d8-a2fc-9b5b3338103f|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|800100|b1f0ff4d-1f53-4d51-b883-d09c1754ab74|94da1375-ac29-4a24-9e25-69943b382a81|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|825500|f2916b41-3739-4207-a4df-b6a3f3d522e8|9069636a-4736-4301-a71d-41f120be2b97|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|850900|2d06e92b-81cc-4a79-9607-2e4fa859c6c6|058b57a2-ef1b-41b2-a9d2-e7aa2e5562af|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|876300|99901ffc-5ea2-4ef5-b304-b4bfd0ae2ea4|b80446e8-ea3d-40b1-b19d-614bda9c6d36|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|901700|58588afc-e2c6-4fb3-baa8-dbd1bdc6e3be|659cfaf2-8809-42cc-8b0b-f2b89d2dcf4a|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|927100|2c32624e-197b-4eb4-9acd-e990c7f8ea38|23cb88ac-5789-4c13-88cc-457bf8371529|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|673100|952500|c90a7c1b-937f-446c-b357-0264ebeb60cc|78eff4e6-1138-4c87-b582-071f84154919|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e|/4251315d-5042-4624-83d8-1c3574ca551e",
+        "tri-state pin is used only as input"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -701,7 +791,7 @@
         "uuid": "4251315d-5042-4624-83d8-1c3574ca551e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG3",
     "variants": []
   },
   "sheets": [

@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|90014286|44700000|1215fdd2-67af-41ac-a581-d453caf17a50|e1b82fd0-598c-453a-b041-d45b9e5b13ff",
+          "intentional"
+        ],
+        [
+          "clearance|92300001|48837931|08c63fc4-ad9c-49ee-8874-60db16c98917|1215fdd2-67af-41ac-a581-d453caf17a50",
+          "intentional"
+        ],
+        [
+          "clearance|92300001|50768966|1215fdd2-67af-41ac-a581-d453caf17a50|ab3aaabd-26ac-4136-adbd-7a4b54aa2cb4",
+          "intentional"
+        ],
+        [
+          "lib_footprint_mismatch|53640000|58420000|cf772c3e-cdf1-4b77-9c86-2635d3f3187f|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "silk_overlap|67478412|41573736|6978071a-61f1-43b9-9a2d-1a3da727a0dc|b5ce5a5b-78a2-4875-86b8-7de36f7823c6",
+          "intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -270,7 +291,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2273300|355600|f83756b4-9bf7-4cfd-86fa-da046f186d4e|43d5d210-30da-41e0-b65c-a26ea4baf776|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|381000|c7bfee3c-6965-4130-a8fe-8e8d00a8447e|b112a5ad-2f9e-44e8-85f0-8ab8db74eb6a|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|406400|8139c707-9e8c-4474-bc76-0aed8116e398|444567b2-1263-4a08-8145-7e53a5e5d70b|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|431800|743e20fd-0535-4584-8924-2d0456cb24ac|7b206280-22f9-4be3-8fcf-b63ecafda8cc|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|457200|36e7271d-cf96-4250-869a-8ce09af8a6d7|0c199538-ee55-48f0-89c0-becd7437a5a3|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|482600|9e77ffd2-fb59-4f90-ae5b-a5545420e24a|00036d8f-41bb-4085-a406-c68378a0677d|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|508000|341fd988-0e6c-466c-93a8-75c4697b2be8|00036d8f-41bb-4085-a406-c68378a0677d|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|2273300|533400|8f3a40b8-47c8-4a58-acef-c4de9e802528|00036d8f-41bb-4085-a406-c68378a0677d|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135|/50b809f2-d499-44b9-9e9c-3ba3c2644135",
+        "tri-state pin is used only as input"
+      ]
+    ],
     "meta": {
       "version": 0
     },

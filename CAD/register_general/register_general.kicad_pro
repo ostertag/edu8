@@ -60,7 +60,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|107400001|67494834|8fb2e281-1344-4031-a340-c60fb205fb07|9d67e5dd-9766-4dfa-b05b-baae90bdcd73",
+          "intentional"
+        ],
+        [
+          "clearance|109320000|66320846|9d67e5dd-9766-4dfa-b05b-baae90bdcd73|e890d67e-eccf-4c51-b8b4-268fd8df9885",
+          "intentional"
+        ],
+        [
+          "clearance|113000000|66320846|9d67e5dd-9766-4dfa-b05b-baae90bdcd73|c65ecc15-32fa-4e01-8784-6ad11dcd6db7",
+          "intentional"
+        ],
+        [
+          "clearance|115400001|71010501|9d67e5dd-9766-4dfa-b05b-baae90bdcd73|be500877-9c77-496b-a1aa-d39b63131d00",
+          "intentional"
+        ],
+        [
+          "clearance|115400001|73200000|0c501b87-058f-4db8-a565-39efdd5e6c99|9d67e5dd-9766-4dfa-b05b-baae90bdcd73",
+          "intentional"
+        ],
+        [
+          "lib_footprint_mismatch|149325000|78025000|580eb8e7-61c2-44be-832d-c6fe8aeb13f6|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|79680000|78010000|e91bd5e4-dfcb-44fd-bb00-f72aafd5b0dc|00000000-0000-0000-0000-000000000000",
+          "edited silkscreen"
+        ],
+        [
+          "silk_overlap|150016002|74648412|1908605b-9d73-4d77-b9a7-31d943ab2876|ba8a9045-ceba-437a-b99b-927f46e1b27d",
+          "intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -270,7 +303,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1181100|571500|b6503e2a-05b5-4734-afeb-4d3791ed42f0|9aac8368-1b91-4348-9ccd-78213e5f51a0|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|596900|ebba7912-d149-4856-ac43-d1a311812860|e5aaf49c-5c17-43e8-8058-de141d007698|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|622300|6a6f1d0d-b255-41cd-b902-c5d27fc0ab09|6fb35923-e5a2-4441-abb8-cc6945a4219c|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|647700|980bd7a3-da86-4240-b034-2ac15a36aece|f6c9ea35-fbd6-4405-9513-780fb9c1c953|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|673100|4729e05e-d5a7-4b5c-98ac-f36025057ce9|a363efd3-e53f-4bbc-aa26-094c4c0b3877|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|698500|310b7003-d962-4837-abd8-e34de7b85388|bbae343f-cd2c-4944-afa2-bd580f699143|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|723900|478532df-ce2b-4208-ae4e-c6b8dffac08a|05e80583-c92d-4c13-b55e-2dcfecec65ca|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ],
+      [
+        "pin_to_pin|1181100|749300|22c4d6f0-7a45-4487-abce-928b93976a1b|69b8fbf4-7d65-45b3-be77-87f20a380ffb|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811|/0d96e788-3788-4603-be87-fd7748d71811",
+        "tri-state pin is used only as input"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -709,7 +775,7 @@
         "uuid": "0d96e788-3788-4603-be87-fd7748d71811"
       }
     ],
-    "used_designators": "",
+    "used_designators": "NT1-2",
     "variants": []
   },
   "sheets": [
