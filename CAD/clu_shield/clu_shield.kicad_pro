@@ -60,12 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_overlap|122823412|34088736|5692ab2e-d4c7-4b53-8c4d-7726ce8261f7|86ee425b-1b8c-402a-b06c-9ed6e4c63e3c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -111,7 +106,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -122,7 +117,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -277,12 +272,8 @@
   "erc": {
     "erc_exclusions": [
       [
-        "isolated_pin_label|1549400|1397000|899be5e3-05b0-427a-8d9e-cd25e7762805|00000000-0000-0000-0000-000000000000|/88263078-63dc-430d-a9ae-d056af0aafa5||",
-        ""
-      ],
-      [
-        "isolated_pin_label|1574800|1397000|17d14615-dafa-439c-9598-838ec809bb99|00000000-0000-0000-0000-000000000000|/88263078-63dc-430d-a9ae-d056af0aafa5||",
-        ""
+        "isolated_pin_label|927100|1778000|899be5e3-05b0-427a-8d9e-cd25e7762805|00000000-0000-0000-0000-000000000000|/88263078-63dc-430d-a9ae-d056af0aafa5||",
+        "not used"
       ]
     ],
     "meta": {

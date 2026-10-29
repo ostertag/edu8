@@ -63,7 +63,7 @@
       "drc_exclusions": [
         [
           "lib_footprint_mismatch|142820000|62440000|c5e7d7e8-808e-48ca-bc57-66030fe67467|00000000-0000-0000-0000-000000000000",
-          ""
+          "modified silkscreen"
         ],
         [
           "silk_overlap|127370692|86686681|60c701b9-1fea-4219-8b7b-1cd49bf91dc1|7000e425-42b2-430d-8bd0-f09cf3b92691",
@@ -126,7 +126,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -279,7 +279,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|2705100|381000|a138517c-b7f8-486a-aef0-12fd52559c90|00000000-0000-0000-0000-000000000000|/6d341b21-8d82-4069-81f9-f245b101d01d||",
+        "not used"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -710,7 +715,7 @@
         "uuid": "6d341b21-8d82-4069-81f9-f245b101d01d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-2",
     "variants": []
   },
   "sheets": [
